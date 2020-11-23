@@ -14,6 +14,7 @@ def hangman(word):
     win = False
     print("ハングマンへようこそ！")
 
+    # 負けこむまでループ
     while wrong < len(stage) -1:
         print("\n")
         msg = print("一文字を予想してね")
